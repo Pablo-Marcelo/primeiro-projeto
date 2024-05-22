@@ -1,2 +1,2 @@
 # primeiro-projeto
- Fiz ess Blog á muito tempo em aprendizado
+ Fiz esse Blog á muito tempo em aprendizado
