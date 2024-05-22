@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'monster';
+    src: url('fonts/Facon.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: linear-gradient(to left, #A62454, #035AA6); 
+    text-align: justify;
+    background-color: rgb(23, 180, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align-last: center;
+}
+
+.header{
+   
+    height: 100px;
+    background-color: #035AA6;
+    position: relative;
+}
+.select{
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    
+}
+.home{
+    float: left;
+    list-style: none;
+    margin-bottom: 17px;  
+    padding-left: 10px;
+    
+   
+}
+.details{
+    float: center;
+    position: relative;
+    top: 8px;
+}
+.imgheader{
+    float: left;
+    list-style: none;
+    position: relative;
+    bottom: 5px;
+    margin-left: 10px;
+}
+
+
+.developer{
+   
+    float: left;
+    position: fixed;
+    top: 25px;
+    padding-left: 10px;
+}
+
+.dev{
+    
+        position: relative;
+        bottom: 15px;
+        color: rgb(187, 187, 187);
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: bolder;
+      font-style: italic;
+        
+    }
+
+#body2{
+    margin: auto;
+    width: 600px;
+   
+}
+
+h1 {
+    font-family: 'monster', Arial, Helvetica, sans-serif;
+    color: #D19E29;
+    margin: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+a {
+    color: #0c75c1;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+    margin: 20px;
+}
+
+/* estilizando links */
+
+.linksedit {
+    font-family: 'monster', Arial, Helvetica, sans-serif;
+    color: #D19E29;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+  
+}
+
+.linksedit:hover{
+    background-color: #c7235f;
+    color: #ffee00;
+    padding: 15px;
+    border: 1px solid black ;
+  
+}
+
+.linkcolor {
+    font-family: 'monster', Arial, Helvetica, sans-serif;
+    color: #035AA6;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* adcionando imagem a lista */
+
+#Barcelona{
+    list-style-image: url('image/favcoin2.png');
+    list-style-position: inside;
+}
+
+/* adcionando estilo a lista */
+
+.l1{
+    font-family: 'monster';
+    color: #D19E29;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 10px;
+    padding-bottom: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+
+span{
+    padding: 10px;
+    text-align: center;
+}
+
+#manchester{
+    list-style-image: url('image/favcoin209.png');
+    list-style-position: inside;
+}
+
+/* estilizando a tabela */
+
+table {
+    background-color: #035aa636;
+}
+
+.colorstable {
+    font-family: 'monster', Arial, Helvetica, sans-serif;
+    color: #D19E29;
+    font-size: 16px;
+    background-color: #035AA6;
+    border: 1px black solid;
+    padding-top: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.686);
+}
+
+/* ajustando tamanho da tabela */
+
+.justifytable {
+    width: 500px;
+}
+
+/* borda da tabela */
+
+td{
+    border: 1px black solid;
+}
+
+/* realçando palavras com ênfase */
+
+.subliminar{
+    color: #D19E29;
+    text-decoration: none;
+    font-style: italic;
+}
+.social{
+    position: fixed;
+   bottom: 0px;
+   right: 0px;
+   margin: 5px;
+
+}
+.facebook{
+    padding: 4px;
+}
+.instagram{
+    padding: 5px;
+}
+.twitter{
+    padding: 5px;
+}
+
+.messi{
+position: absolute;
+left: 80%;
+top: 660%;
+
+
+    
+}
+
+
+@media screen and (max-width: 500px){
+    .header{
+        height: 150px;
+    }
+
+    .home{
+        float: none;
+        position: relative;
+        right: 100px;
+        padding: 0px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-top: 5px;
+       
+    }
+    .select{
+        padding-right: 0;
+        padding-bottom: 0;
+        margin-right: 40px;
+       
+    }
+    .details{
+        float: none;
+        display:none;
+    }
+    .developer{
+        position: fixed;
+        top: 130px;
+        left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .dev{
+        color: #035aa638;
+        text-shadow: none;
+    }
+#body2{
+    width: 300px;
+}
+.mobile500px{
+    width: 300px;
+}
+.messi{
+    float: none;
+    margin-top: 200px;
+ 
+}
+h3 {
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+h1{
+    font-size:28px;
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+.colorstable{
+    font-size: 10px;
+}
+td{
+    font-size: 10px;
+}
+
+.facebookmobile{
+    width: 25px;
+    
+    display: inline-block;
+}
+.instagrammobile{
+    width: 20px;
+    display: inline-block;
+}
+.twittermobile{
+    width: 20px;
+}
+
+} 
